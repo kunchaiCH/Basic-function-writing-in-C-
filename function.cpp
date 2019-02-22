@@ -15,8 +15,20 @@ void repettition(){             // Repettition function
     }
 }
 
+void selection(){               // Selection function
+    int age;
+    cout << "Enter your age: ";
+    cin >> age;
+    if (age <= 5){
+        cout << "Free entrance" << endl;
+    }else{
+        cout << "Ticket 20 Baht" << endl;
+    }
+}
+
 main(){
     //sequence();
-    repettition();
+    //repettition();
+    selection();
     return 0;
 }
