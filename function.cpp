@@ -9,7 +9,14 @@ void sequence(){            // Sequence function
     cout << hrs << " hours = " << days << " days " << hours << " hours " << endl;
 }
 
+void repettition(){             // Repettition function
+    for(int k=1; k<=10; k++){
+        cout << k << " kg. =" << k * 2.2046 << " lbs." << endl;
+    }
+}
+
 main(){
-    sequence();
+    //sequence();
+    repettition();
     return 0;
 }
